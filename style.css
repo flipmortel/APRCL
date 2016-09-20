@@ -1,5 +1,5 @@
 /*
-Theme Name: Dazzlingl
+Theme Name: Dazzling
 Theme URI: http://colorlib.com/wp/themes/dazzling
 Author: Colorlib
 Author URI: http://colorlib.com/wp/
@@ -69,7 +69,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #1FA67A;
+  color: #f76103;
 }
 
 h1,
@@ -295,10 +295,10 @@ textarea {
 }
 .entry-title {
   font-size: 32px;
-  color: #444;
+  color: #f76103;
 }
 .entry-title a {
-  color: #444;
+  color: #f76103;
 }
 .entry-title a:hover {
   color: #666;
@@ -306,7 +306,7 @@ textarea {
 .btn.btn-default.read-more {
   float: right;
   border: 1px solid #E8E8E8;
-  color: #1FA67A;
+  color: orange;
   background-color: transparent;
   margin-top: 10px;
 }
@@ -436,6 +436,8 @@ li.recentcomments {
 }
 .widget-title {
   border-bottom: 1px solid #eee;
+  color: #fff;
+  background-color: orange;
 }
 .widget ul.nav.nav-tabs {
   padding: 0;
@@ -811,15 +813,6 @@ p.logged-in-as {
 #footer-area a {
   color: #ccc;
 }
-
-#footer-top{
-    height :340px;
-    width :auto;	
-    border-top : solid #EC663B 2px;
-    border-bottom : solid #999999 2px;
-    background-color : #3C3C3B;
-}
-
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
   overflow: hidden;
@@ -864,11 +857,6 @@ p.logged-in-as {
   float: right;
   text-align: right;
 }
-
-#copy{
-    font-size: 12px;
-}
-
 #colophon {
   background-color: #1F1F1F;
   padding: 10px 0;
@@ -1111,6 +1099,8 @@ p.logged-in-as {
 .full-width #primary{
     width: 100%;
 }
+/*---------------------------------------------my test------------------------------------------------*/
+
 /*---------------------------------------------------------------------------------------------*/
 /*---------------------------------------------buddy press-------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
@@ -1166,8 +1156,8 @@ color: #f76103;
 	font-size: 1em;
 }
 .em-calendar{
-	width: 360px;
-	height: 360px;
+	width: 300px;
+	height: 300px;
 }
 /*---------------head---------------*/
 thead{
@@ -1179,7 +1169,7 @@ thead{
 /*--------------case---------------------*/
 #em_calendar-2 td {
 	border: 2px solid #999;
-	padding: 15px;
+	padding: 10px;
 	
 }
 .eventful {
